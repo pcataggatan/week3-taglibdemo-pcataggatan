@@ -23,7 +23,7 @@ public class GreetingMessageTag extends SimpleTagSupport {
 
         out.println("Today's current local date is: " + fmtDate.format(localDateTime));
         out.println("<br/>");
-        out.print("Current local time is: " + fmtTime.format(localDateTime));
+        out.print("And current local time is: " + fmtTime.format(localDateTime));
         out.println("<br/>");
 
         if (localDateTime.getMonthValue() == 10
